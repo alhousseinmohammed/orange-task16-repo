@@ -1,0 +1,217 @@
+* {
+    /* border: solid; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: grey;
+    padding: 100px;
+}
+
+
+.top {
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2%;
+}
+
+.tr svg {
+    color: white;
+}
+
+.tr {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 40% 40%;
+    /* row-gap: 20%; */
+    align-content: space-between;;
+}
+
+.tr  .starer{
+    background-color: lightgreen;
+    color: white;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.star {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.star svg {
+    background-color: green;
+    width: 50%;
+    height: 50%;
+}
+
+
+.tr  .trophier{
+    background-color: lightblue;
+    color: white;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.trophy {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trophy svg {
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+}
+
+.trophier :first-child {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.starer :first-child  {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.tl {
+    display:grid;
+    grid-template-areas: '. .' '. .'
+}
+
+.tl > div {
+    display: flex;
+    justify-content: space-between;
+    border: solid 0.5px;
+}
+
+.tl .icon {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon svg {
+    color: green;
+    width: 100%;
+    height:  100%;
+}
+
+.tl .iconer {
+    margin-right: 20%;
+    /* background-color: red; */
+    /* justify-self: space-around; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.iconer :first-child {
+        font-size: larger;
+        font-weight: bolder;
+}
+
+/*  */
+
+/* .header {
+    flex: 10%;
+    padding: 0 2%;
+} */
+
+.header svg {
+    color: grey;
+}
+
+.body {
+    padding-bottom: 1%;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ml {
+    width: 47.5%;
+}
+
+.mr {
+    width: 47.5%;
+}
+
+.ml .person {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+
+.profile {
+    display: flex;
+    gap: 2%;
+}
+
+.image {
+    width: 5%;
+    height: 70%;
+    border-radius: 100%;
+    overflow: hidden;
+    align-self: center;
+}
+
+.imager {
+    align-self: center;
+    justify-content: space-between;
+}
+
+.ml img {
+    width: 100%;
+    height: 100%;
+}
+
+.mr {
+    display: grid;
+    grid-template-columns: 47.5% 47.5%;
+    grid-template-rows:  33.75% 33.75% 20%;
+    justify-content: space-between;
+    /* gap: 10%; */
+
+}
+
+.mr > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mr > div div {
+    display: flex;
+    align-content: start;
+    justify-content: space-around;
+}
+
+.mr svg {
+    color: red;
+}
+
+.colored {
+    display: flex;
+    flex-direction: row;
+    background-color: orangered;
+}
